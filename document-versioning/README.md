@@ -38,7 +38,7 @@ Connected successfully to server
 ## Results
 After the update is run, there's a record of the original document in the ``accounts_revisions`` collection:
 
-```json
+```javascript
 db.accounts_revisions.findOne({account_id: 371138})
 { _id: ObjectId("601980f31f081b09c17199f8"),
   account_id: 371138,
@@ -48,7 +48,7 @@ db.accounts_revisions.findOne({account_id: 371138})
 
 And and updated document in the ``accounts`` collection:
 
-```json
+```javascript
 db.accounts.findOne({account_id: 371138})
 { _id: ObjectId("5ca4bbc7a2dd94ee5816238c"),
   account_id: 371138,
