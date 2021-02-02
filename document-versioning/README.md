@@ -4,7 +4,7 @@ This respository contains and example implementation of the [Document Versioning
 
 Specifically, this example adds a "Commodity" to account_id 371138:
 
-```json
+```javascript
 db.accounts.findOne({account_id: 371138})
 { _id: ObjectId("5ca4bbc7a2dd94ee5816238c"),
   account_id: 371138,
