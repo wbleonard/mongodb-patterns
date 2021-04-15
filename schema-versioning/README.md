@@ -1,4 +1,4 @@
-# Document Versioning Pattern
+# Schema Versioning Pattern
 
 This respository contains and example implementation of the [Schema Versioning](https://www.mongodb.com/blog/post/building-with-patterns-the-schema-versioning-pattern) pattern. It uses the [accounts](https://docs.atlas.mongodb.com/sample-data/sample-analytics#sample_analytics.accounts) collection from the [sample_analytics](mongodb.com/sample-data/sample-analytics) datbase. An account document contains an `account_id`, `limit` and array of `products`:
 
